@@ -65,6 +65,27 @@ and open the template in the editor.
                     
                    
                     ?>
+                    <ul>
+                        <?php
+                          foreach ($Usuarios as $User){
+                        echo "<li>".$User."</li>";
+                          }
+                          foreach ($Usuarios as $key => $User){
+                              
+                              echo "<li>".$key." ".$User."</li>";
+                          }
+                          For ($i=0;$i<4; $i++){
+                              echo $i;
+                          }
+                          echo '<br>';
+                          $Cont=0;
+                          while($Cont==3){
+                              break;
+                          }
+                          $Cont++;
+                          
+                        ?>
+                    </ul>
                 </h3>
              </pre>
             </h1>
