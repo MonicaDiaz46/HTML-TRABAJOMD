@@ -62,7 +62,7 @@ and open the template in the editor.
         </h1>
         <p>
             <h2>
-                ////54848484845554545
+                ////54848484845554545545
                 <?PHP
                     echo 'Esta es Otra Sección';
                  ?>
