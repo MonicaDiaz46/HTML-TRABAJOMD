@@ -10,8 +10,23 @@ and open the template in the editor.
         <title></title>
     </head>
     <body>
-        <?php
-        // put your code here
-        ?>
+        
+        <h1>
+            <?php
+             // Esto es Un comentario / variables
+             $PrimeraVariable="Soy Una Variable";
+             echo "<br>";
+             echo $PrimeraVariable."<br>";
+             $SegundaVariable=1234;
+             echo $SegundaVariable;
+             ?>  
+        </h1>
+        <p>
+            <h2>
+                <?PHP
+                    echo 'Esta es Otra Sección';
+                 ?>
+            </h2>
+        </p>
     </body>
 </html>
