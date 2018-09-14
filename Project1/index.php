@@ -54,7 +54,16 @@ and open the template in the editor.
                     
                     $Usuarios=array ('Nombre'=> "Juan","Apellido"=> "Zabala","Cedula"=> 1234);
                     echo "<h1>".$Usuarios['Nombre']."</h1>";
+                    echo "hola"."<br>"."comer"."<br>"; //si el arreglo existe
+                    $Existe= in_array('Juan',array_values($Usuarios));
+                    var_dump($Existe);
                     
+                    //recorriendo un arreglo con Foreach
+                    foreach ($Usuarios as $User){
+                        echo $User."<br>";
+                    }
+                    
+                   
                     ?>
                 </h3>
              </pre>
@@ -62,7 +71,7 @@ and open the template in the editor.
         </h1>
         <p>
             <h2>
-                ////54848484845554545545
+               
                 <?PHP
                     echo 'Esta es Otra Sección';
                  ?>
