@@ -16,7 +16,8 @@
                 //Función con parámetros
 
             function Usuario ($Nombres,$Tel){ 
-                print_r($Nombres);
+                var_dump($Nombres);
+               // print_r($Nombres);
                /* foreach ($Nombres as $Nombres){
                     echo "Nombres:".$Nombres. '<br>';        
                 }*/
