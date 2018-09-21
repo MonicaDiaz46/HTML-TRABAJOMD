@@ -7,7 +7,12 @@
 .registro{
      text-align: center;
      box-shadow: 5px 5px #BDBDBD;
+     border-radius:30px;
  
+}
+.container{
+    margin-top: 20px;
+    width: 50%;
 }
 .btn-enviar{
     background: #E040FB;
