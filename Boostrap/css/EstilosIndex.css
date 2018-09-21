@@ -1,3 +1,15 @@
 .navbar {
-    background-color: #F44336;
+    background: linear-gradient(#512DA8,#607D8B); 
 }
+.style-footer{
+    text-align: center;
+}
+.registro{
+     text-align: center;
+     box-shadow: 5px 5px #BDBDBD;
+ 
+}
+.btn-enviar{
+    background: #E040FB;
+}
+
