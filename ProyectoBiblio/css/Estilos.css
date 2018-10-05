@@ -1,0 +1,78 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 30/09/2018, 09:36:48 PM
+    Author     : yamileth puentes
+*/
+
+.Logo{
+	width: 90px;
+	height: 60px;
+}
+#icon-w{
+    width: 35px;
+    height: 28px;
+}
+.Barra-nav{
+       background-color:#D8ACDF;
+}
+#icon-f{
+    width: 40px;
+    height:30px;
+}
+#icon-I{
+     width: 40px;
+    height:30px;
+}
+#nav2{
+    background-color:#D8ACDF;
+}
+.fondo-nav{
+	background-color: #FF5252;
+}
+
+.btn-enviar{
+       background-color:#D8ACDF;
+}
+
+#copy-color{
+	color: #7B1FA2;
+}
+.footer-info1{
+	height: 50px;
+	background-color: #FF5252;
+	color: white;
+}
+.footer-info3{
+	background-color: black;
+	color: white;
+	height: 60px;
+}
+.footer-info2{
+	background-color: #212121;
+	color: white;
+}
+label{
+	color: #7B1FA2;
+
+}
+#footer-fondo{
+	background-color: #212121;
+}
+#S1{
+  align-items:stretch;
+}
+
+#R{
+    color: #D8ACDF;
+    text-align:center;
+}
+.B1{
+    color: black;
+}
+body{
+    background-color: #F5D9E0;
+}
